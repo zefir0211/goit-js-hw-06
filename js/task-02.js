@@ -20,4 +20,6 @@ const element = ingredients.map(ingredient => {
   return newIngredientsList;
 })
 
+console.log(ingredientsEl)
+
 ingredientsEl.append(...element)
