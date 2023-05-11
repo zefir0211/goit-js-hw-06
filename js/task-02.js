@@ -7,10 +7,6 @@ const ingredients = [
   'Condiments',
 ];
 
-// const ingredientsEl = document.querySelector("#ingredients");
-// console.log("ingredientsEl:", ingredientsEl)
-
-
 const ingredientsEl = document.querySelector("#ingredients");
 
 const element = ingredients.map(ingredient => {
