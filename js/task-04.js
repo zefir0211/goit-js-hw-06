@@ -12,4 +12,4 @@ visualResult.textContent = counterValue;
 counterRemove.addEventListener('click', () => {
     counterValue -= 1;
 visualResult.textContent = counterValue;
-})
+});

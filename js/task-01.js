@@ -2,7 +2,7 @@ const numberOfCategories = document.querySelector("#categories");
 
 
 const categoryAnimals = numberOfCategories.querySelectorAll(".item");
-console.log(`Number of categories: ${categoryAnimals.length}`)
+console.log(`Number of categories: ${categoryAnimals.length}`);
 
 categoryAnimals.forEach(item => {
     const categoryName = item.querySelector('h2').textContent;

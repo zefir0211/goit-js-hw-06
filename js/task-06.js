@@ -1,5 +1,5 @@
-const inputEl = document.querySelector('#validation-input')
-const lengthEL = inputEl.getAttribute('data-length')
+const inputEl = document.querySelector('#validation-input');
+const lengthEL = inputEl.getAttribute('data-length');
 
 const handleInputColor = (e) => {
 if (e.target.value.length < lengthEL) {
@@ -8,8 +8,8 @@ if (e.target.value.length < lengthEL) {
     e.target.classList.add('valid')
     e.target.classList.remove('invalid')
 }
-}
+};
 
-inputEl.addEventListener('blur', handleInputColor)
+inputEl.addEventListener('blur', handleInputColor);
 
 
